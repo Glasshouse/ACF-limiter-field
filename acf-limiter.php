@@ -23,6 +23,7 @@ add_action('acf/include_field_types', 'include_field_types_limiter');
 
 function register_fields_limiter() {
   include_once('limiter-v4.php');
+  include_once('limiter-wysiwyg-v4.php');
 }
 
 add_action('acf/register_fields', 'register_fields_limiter');
