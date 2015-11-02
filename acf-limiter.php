@@ -15,7 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 function include_field_types_limiter( $version ) {
 
   include_once('limiter-v5.php');
-
+  include_once('limiter-wysiwyg-v5.php');
 }
 
 add_action('acf/include_field_types', 'include_field_types_limiter'); 
